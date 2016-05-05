@@ -24,6 +24,16 @@
   },
   "homepage": "https://github.com/keokilee/react-typescript-boilerplate",
   "devDependencies": {
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-redux": "^4.1.2",
+    "redux": "^3.1.5",
+    "ts-loader": "^0.8.1",
+    "typescript": "^1.7.5",
+    
+    
     "babel-core": "^6.4.5",
     "babel-loader": "^6.2.1",
     "babel-plugin-react-transform": "^2.0.0",
@@ -40,13 +50,5 @@
     "webpack": "^1.12.15",
     "webpack-dev-middleware": "^1.5.1",
     "webpack-hot-middleware": "^2.6.4"
-  },
-  "dependencies": {
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7",
-    "react-redux": "^4.1.2",
-    "redux": "^3.1.5",
-    "ts-loader": "^0.8.1",
-    "typescript": "^1.7.5"
   }
 }
