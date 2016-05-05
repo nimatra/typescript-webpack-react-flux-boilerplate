@@ -1,5 +1,8 @@
 {
   "name": "react-typescript-boilerplate",
+  "engines": {
+    "node": ">=0.12.0"
+  },
   "version": "1.0.0",
   "description": "Boilerplate project that uses Typescript, React, and Webpack",
   "main": "index.js",
