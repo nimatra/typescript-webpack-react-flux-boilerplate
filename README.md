@@ -1,29 +1,21 @@
-# typescript-webpack-react-flux-boilerplate
-This boilerplate combines:
-* [Typescript](https://github.com/Microsoft/TypeScript)
-* [Babel](https://babeljs.io/)
-* [React](https://github.com/facebook/react)
-* [Flux](https://github.com/facebook/flux)
-* [LESS](https://github.com/less/less.js)
-* [CSS modules](https://github.com/css-modules/css-modules)
-* [Webpack](https://github.com/webpack/webpack)
-* [Jasmine](https://github.com/jasmine/jasmine)
-* [Karma](https://github.com/karma-runner/karma)
+Typescript + React + Webpack Boilerplate
+=======================================
 
-## Getting started
-* run **npm install** to download dependencies
-* run **npm start** to build and start webpack-dev-server
-* open **http://localhost:3333/**
+Base project for setting up a frontend application using Typescript and React. Heavily based off of Dan Abramov's [React Transform Boilerplate](https://github.com/gaearon/react-transform-boilerplate).
 
-## Build options
-* **npm run build** for single build (creates files in build/ folder)
-* **npm run watch** for incremental builds on every file change
-* **npm start** to build and start webpack-dev-server
+Prerequisites
+----------------------------------
+* Typescript Definition Manager (TSD) `npm install -g tsd`
 
-## Tests
-* **npm test** - single run unit tests in PhantomJS
-* **npm run test-debug** - to run repeated unit tests in PhantomJS after every file change
-* **npm run test-browser**- single run unit tests in Chrome
-* **npm run test-browser-debug** - to run repeated unit tests after every file change in Chrome with debug option
-    * After browser is opened click on "DEBUG" button in top right corner
-    * Hit F12 to debug
+Installation
+--------------------------------------
+* npm install
+* tsd install
+
+Running the Dev Server
+--------------------------------------
+After setting up the project, type `npm start` to start the Express dev server.
+
+Compiling for production
+---------------------------------------
+To compile the Javascript bundle for production, use `npm run build`.
