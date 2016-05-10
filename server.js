@@ -23,19 +23,6 @@ app.use(require('webpack-dev-middleware')(compiler, {
 app.use(require('webpack-hot-middleware')(compiler));
 // Routers
 
-var addinRouter = express.Router({mergeParams: true});
-
-app.use('/api', socialMemoryApi);
-
-app.use('/add', addinRouter);
-var addin = function (req, res) {
-  res.send("hey")
-}
-addinRouter.use('/test', addin);
-//
-
-app.use('/public', express.static(__dirname + '/public'));
-
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
