@@ -35,6 +35,7 @@ addinRouter.use('/test', addin);
 //
 
 app.use('/public', express.static(__dirname + '/public'));
+app.use('/static', express.static(__dirname + '/static'));
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
